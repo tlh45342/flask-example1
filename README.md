@@ -9,6 +9,7 @@ flask-example1 is a simple example flask app that uses authentication.  This is 
 
 ```bash
 git clone https://github.com/tlh45342/flask-example1.git
+```
 
 To make sure you have all the python modules installed.
 
