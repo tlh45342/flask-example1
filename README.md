@@ -30,7 +30,7 @@ pip install -r requirements.txt
        ├── app.py                   Main App
        ├── routes.py                flask routes
        ├── static                   Static files
-       │   ├── css
+       │   └── css
        │      ├── normalize.css    
        │      └── skeleton.css      
        └── templates                Jinja2 templates
