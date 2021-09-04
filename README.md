@@ -23,16 +23,28 @@ To make sure you have all the python modules installed.
 ```bash
 pip install -r requirements.txt
 ```
-## FUTURE Exploration
+## SIDEBAR: Notes for creating a service for Linux based distributions
 
-I am putting my notes here now - because I will use them now
-Consider these random notes used to implement the Flask APP as a service.
+I am putting my notes here now - because I will use them now.  Consider these random notes used to implement the Flask APP as a service.
 
-Commands which will make up part of the 
+To create a service entry cd /etc/systemd/system
+Create a file that looks something like.  As much as I hate assumptions - you will need to edit this for your environment
+
 ```bash
+[Unit]
+Description=Tradinghook
+
+[Service]
 WorkingDirectory=/mnt/python/flask-example1/
 ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:8080 -w 4 server:app
 
+[Install]
+WantedBy=multi-user.target
+```
+
+The key refence commands you would then use to 
+
+```bash
 sudo systemctl daemon-reload
 sudo systemctl start flask1.service
 sudo systemctl restart flask1.service
