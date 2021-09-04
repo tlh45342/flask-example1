@@ -3,12 +3,14 @@
 ![Tests](https://github.com/maxcountryman/flask-login/workflows/Tests/badge.svg)
 [![Software License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)
 
-flask-example1 is a simple example flask app that implements authentication.  This is not designed to be pretty, or clever per-se.  This is not nearly finished. 
+flask-example1 is a simple example flask app that implements authentication.  This is not designed to be pretty, or clever per-se.  This is not nearly finished.  This is simply designed TO WORK.  There are a lot of Flask examples out there that either are incomplete or are online tutorials that could not have ever been indepdently checked because they are missing critical pieces (glue, code, whatever) 
 
 - learning Flask.
-- kicking off your new project.
+- kicking off your a new project.
 
 ## INSTALLATION
+
+The imediate section will discuss how just to simply run the app.  Most notably this app does not use SSL (I did say this was simple right?)
 
 ```bash
 git clone https://github.com/tlh45342/flask-example1.git
@@ -18,6 +20,19 @@ To make sure you have all the python modules installed.
 
 ```bash
 pip install -r requirements.txt
+```
+## FUTURE Exploration - but I am putting my notes here now - because I will use them now
+
+Consider these random notes used to implement the Flask APP as a service.
+
+```bash
+WorkingDirectory=/mnt/python/flask-example1/
+ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:8080 -w 4 server:app
+
+sudo systemctl daemon-reload
+sudo systemctl start flask1.service
+sudo systemctl restart flask1.service
+sudo systemctl stop flask1.service
 ```
 
 ## STRUCTURE
@@ -45,4 +60,7 @@ flask-example1 is licensed under the Apache License, Version 2.0. See LICENSE fo
 ## ACKNOWLEDGEMENTS
 
 Many thanks to Python, Flask and other good stacks.
-Please note that this does include http://getskeleton.com/ skeleton.css and normal.css
+Please note that this does include http://getskeleton.com/ skeleton.css and normal.css (credit to them)
+
+URLS:
+  https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-v-user-logins
