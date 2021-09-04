@@ -24,10 +24,9 @@ pip install -r requirements.txt
 
 ## STRUCTURE
 
-    ├── CHANGES                     Change logs
-    ├── README.markdown
+    ├── README.md                   This document
     ├── requirements.txt            3rd libraries
-    ├── wsgi.py                     Wsgi app
+    ├── server.py                   Wsgi app
     ├── app
        ├── __init__.py
        ├── app.py                   Main App
@@ -39,7 +38,7 @@ pip install -r requirements.txt
        └── templates                Jinja2 templates
            ├── errors
            ├── frontend
-           ├── index.html
+           └── index.html
  
 ## TODO
 
