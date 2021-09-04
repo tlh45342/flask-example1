@@ -1,7 +1,6 @@
 # INTRODUCTION
 
 ![Tests](https://github.com/maxcountryman/flask-login/workflows/Tests/badge.svg)
-[![coverage](https://coveralls.io/repos/tlh45342/flask-example1/badge.svg?branch=master&service=github)](https://coveralls.io/github/tlh45342/flask-example1?branch=master)
 [![Software License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)
 
 flask-example1 is a simple example flask app that implements authentication.  This is not designed to be pretty, or clever per-se.  This is not nearly finished. 
@@ -28,21 +27,21 @@ pip install -r requirements.txt
 
 ## STRUCTURE
 
-    ├── README.md                   This document
-    ├── requirements.txt            3rd libraries
+    ├── LICENSE                     Copy of the Apache 2.0 license
+    ├── requirements.txt            module requirements
     ├── server.py                   Wsgi app
     ├── app
        ├── __init__.py
        ├── app.py                   Main App
-       ├── config.py                Develop / Testing configs
-       ├── user
-       ├── api
+       ├── routes.py                flask routes
        ├── static                   Static files
        │   ├── css
+       │      ├── normalize.css    
+       │      └── skeleton.css      
        └── templates                Jinja2 templates
-           ├── errors
-           ├── frontend
-           └── index.html
+           ├── html_tamplates.html
+           ├── login.html
+           └── welcome.html
  
 ## TODO
 
