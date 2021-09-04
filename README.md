@@ -1,8 +1,6 @@
 # INTRODUCTION
 
-Fbone (Flask bone) is a [Flask](http://flask.pocoo.org) (Python microframework) template/bootstrap/boilerplate application, with best practices (I hope).
-
-You can use it for
+flask-example1 is a simple example flask app that uses authentication.  This is not designed to be pretty, or clever per-se. 
 
 - learning Flask.
 - kicking off your new project.
