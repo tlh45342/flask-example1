@@ -28,7 +28,8 @@ pip install -r requirements.txt
 I am putting my notes here now - because I will use them now.  Consider these random notes used to implement the Flask APP as a service.
 
 To create a service entry cd /etc/systemd/system
-Create a file that looks something like.  As much as I hate assumptions - you will need to edit this for your environment
+Create a file that looks something like is found in the following block.
+As much as I hate assumptions - you will need to edit this for your environment
 
 ```bash
 [Unit]
