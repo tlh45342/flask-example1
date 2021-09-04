@@ -1,6 +1,6 @@
 # INTRODUCTION
 
-flask-example1 is a simple example flask app that uses authentication.  This is not designed to be pretty, or clever per-se. 
+flask-example1 is a simple example flask app that uses authentication.  This is not designed to be pretty, or clever per-se.  This is not nerly finished. 
 
 - learning Flask.
 - kicking off your new project.
