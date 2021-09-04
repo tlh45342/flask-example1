@@ -29,7 +29,7 @@ I am putting my notes here now - because I will use them.  Consider these random
 
 To create a service entry cd /etc/systemd/system
 Create a file that looks something like is found in the following block.
-As much as I hate assumptions - you will need to edit this for your environment.
+As much as I hate assumptions - you will need to edit this to your tastes and for your environment.
 
 ```bash
 [Unit]
