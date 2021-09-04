@@ -29,7 +29,7 @@ I am putting my notes here now - because I will use them now.  Consider these ra
 
 To create a service entry cd /etc/systemd/system
 Create a file that looks something like is found in the following block.
-As much as I hate assumptions - you will need to edit this for your environment
+As much as I hate assumptions - you will need to edit this for your environment.
 
 ```bash
 [Unit]
@@ -43,7 +43,7 @@ ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:8080 -w 4 server:app
 WantedBy=multi-user.target
 ```
 
-The key refence commands you would then use to 
+The key refence commands you would then use: 
 
 ```bash
 sudo systemctl daemon-reload
