@@ -82,4 +82,4 @@ Please note that this does include http://getskeleton.com/ skeleton.css and norm
 URLS:
   https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-v-user-logins
   https://medium.com/analytics-vidhya/how-to-use-flask-login-with-sqlite3-9891b3248324
-     * There are errors in the above medium document (as revieed 9/4/2021) - however I was able to bridge the gap and fill in holes in my knowledge with this.
+     * There are errors in the above medium document (reviewed: 9/4/2021) - however I was able to bridge the gap and fill in holes in my knowledge with this.
