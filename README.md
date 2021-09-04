@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ## LICENSE
 
-Apache
+Moby is licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
 
 ## ACKNOWLEDGEMENTS
 
