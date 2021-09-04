@@ -3,7 +3,7 @@
 ![Tests](https://github.com/maxcountryman/flask-login/workflows/Tests/badge.svg)
 [![Software License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)
 
-flask-example1 is a simple example flask app that implements authentication.  This is not designed to be pretty, or clever per-se.  This is not nearly finished.  This is simply designed TO WORK.  There are a lot of Flask examples out there that either are incomplete or are online tutorials that could not have ever been indepdently checked because they are missing critical pieces (glue, code, whatever) 
+flask-example1 is a simple example flask app that implements authentication.  This is not designed to be pretty, or clever per-se. This is simply designed TO WORK.  There are a lot of Flask examples out there that either are incomplete or are online tutorials that could not have ever been indepdently checked because they are missing critical pieces (glue, code, whatever) 
 
 Work will have been done to test this on Windows 10, Ubuntu 20.04.3 LTS, Apple Mac OS x.
 
