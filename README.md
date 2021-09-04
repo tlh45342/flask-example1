@@ -46,3 +46,4 @@ Apache
 ## ACKNOWLEDGEMENTS
 
 Many thanks to Python, Flask and other good stacks.
+Please note that this does include http://getskeleton.com/ skeleton.css and normal.css
