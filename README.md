@@ -5,13 +5,17 @@ flask-example1 is a simple example flask app that uses authentication.  This is 
 - learning Flask.
 - kicking off your new project.
 
-## COMPONENTS
-
-## LICENSE
+## INSTALLATION
 
 ```bash
 git clone https://github.com/tlh45342/flask-example1.git
+
+To make sure you have all the python modules installed.
+
+```bash
+pip install -r requirements.txt
 ```
+
 ### Frontend
 
 - [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
