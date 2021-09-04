@@ -33,7 +33,7 @@ As much as I hate assumptions - you will need to edit this for your environment.
 
 ```bash
 [Unit]
-Description=Tradinghook
+Description=flask-example1
 
 [Service]
 WorkingDirectory=/mnt/python/flask-example1/
