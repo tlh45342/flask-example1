@@ -5,6 +5,8 @@
 
 flask-example1 is a simple example flask app that implements authentication.  This is not designed to be pretty, or clever per-se.  This is not nearly finished.  This is simply designed TO WORK.  There are a lot of Flask examples out there that either are incomplete or are online tutorials that could not have ever been indepdently checked because they are missing critical pieces (glue, code, whatever) 
 
+Work will have been done to test this on Windows 10, Ubuntu 20.04.3 LTS, Apple Mac OS x.
+
 - learning Flask.
 - kicking off your a new project.
 
@@ -21,10 +23,12 @@ To make sure you have all the python modules installed.
 ```bash
 pip install -r requirements.txt
 ```
-## FUTURE Exploration - but I am putting my notes here now - because I will use them now
+## FUTURE Exploration
 
+I am putting my notes here now - because I will use them now
 Consider these random notes used to implement the Flask APP as a service.
 
+Commands which will make up part of the 
 ```bash
 WorkingDirectory=/mnt/python/flask-example1/
 ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:8080 -w 4 server:app
