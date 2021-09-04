@@ -25,7 +25,7 @@ pip install -r requirements.txt
     ├── LICENSE                     Copy of the Apache 2.0 license
     ├── requirements.txt            module requirements
     ├── server.py                   Wsgi app
-    ├── app
+    └── app
        ├── __init__.py
        ├── app.py                   Main App
        ├── routes.py                flask routes
