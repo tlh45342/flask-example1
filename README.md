@@ -1,5 +1,9 @@
 # INTRODUCTION
 
+![Tests](https://github.com/maxcountryman/flask-login/workflows/Tests/badge.svg)
+[![coverage](https://coveralls.io/repos/maxcountryman/flask-login/badge.svg?branch=master&service=github)](https://coveralls.io/github/maxcountryman/flask-login?branch=master)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
+
 flask-example1 is a simple example flask app that uses authentication.  This is not designed to be pretty, or clever per-se.  This is not nerly finished. 
 
 - learning Flask.
