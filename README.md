@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ## LICENSE
 
-Moby is licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
+flask-example1 is licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
 
 ## ACKNOWLEDGEMENTS
 
