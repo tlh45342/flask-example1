@@ -1,9 +1,4 @@
-from flask import Flask
-from flask import render_template, url_for, flash, request, redirect, Response
-import sqlite3
-
-from forms import LoginForm
-
+from app import routes, app
 
 # ------------------------------
  
