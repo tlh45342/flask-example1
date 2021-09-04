@@ -7,6 +7,10 @@ flask-example1 is a simple example flask app that uses authentication.  This is 
 
 ## COMPONENTS
 
+## LICENSE
+
+Should be as simple as git
+
 ### Frontend
 
 - [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
@@ -16,8 +20,6 @@ flask-example1 is a simple example flask app that uses authentication.  This is 
 
     ├── CHANGES                     Change logs
     ├── README.markdown
-    ├── fabfile.py                  Fabric file to automated managament project
-    ├── fbone.conf                  Apache config
     ├── requirements.txt            3rd libraries
     ├── wsgi.py                     Wsgi app
     ├── app
@@ -28,7 +30,6 @@ flask-example1 is a simple example flask app that uses authentication.  This is 
        ├── api
        ├── static                   Static files
        │   ├── css
-       │   └── robots.txt
        └── templates                Jinja2 templates
            ├── errors
            ├── frontend
@@ -37,3 +38,11 @@ flask-example1 is a simple example flask app that uses authentication.  This is 
 ## TODO
 
 - Upgrade to [Python3k](http
+
+## LICENSE
+
+Apache
+
+## ACKNOWLEDGEMENTS
+
+Many thanks to Python, Flask and other good stacks.
