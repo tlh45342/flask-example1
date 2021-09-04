@@ -43,7 +43,7 @@ ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:8080 -w 4 server:app
 WantedBy=multi-user.target
 ```
 
-The key refence commands you would then use: 
+The key commands for reference are: 
 
 ```bash
 sudo systemctl daemon-reload
