@@ -9,8 +9,9 @@ flask-example1 is a simple example flask app that uses authentication.  This is 
 
 ## LICENSE
 
-Should be as simple as git
-
+```bash
+git clone https://github.com/tlh45342/flask-example1.git
+```
 ### Frontend
 
 - [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
