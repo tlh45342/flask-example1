@@ -20,11 +20,6 @@ To make sure you have all the python modules installed.
 pip install -r requirements.txt
 ```
 
-### Frontend
-
-- [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
-- [jQuery](http://jquery.com/)
-
 ## STRUCTURE
 
     ├── LICENSE                     Copy of the Apache 2.0 license
@@ -43,10 +38,6 @@ pip install -r requirements.txt
            ├── login.html
            └── welcome.html
  
-## TODO
-
-- Upgrade to [Python3k](http
-
 ## LICENSE
 
 flask-example1 is licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
