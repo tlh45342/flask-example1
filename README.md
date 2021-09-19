@@ -12,16 +12,11 @@ Work will have been done to test this on Windows 10, Ubuntu 20.04.3 LTS, Apple M
 
 ## INSTALLATION
 
-The small section will discuss how just to simply run the app.  Most notably this app does not use SSL (I did say this was simple right?)
-
 ```bash
 git clone https://github.com/tlh45342/flask-example1.git
-```
-
-To make sure you have all the python modules installed.
-
-```bash
+cd flask-example1
 pip install -r requirements.txt
+python server.py
 ```
 ## SIDEBAR: Notes for creating a service for Linux based distributions
 
@@ -55,19 +50,22 @@ sudo systemctl stop flask1.service
 ## STRUCTURE
 
     ├── LICENSE                     Copy of the Apache 2.0 license
+    ├── README.md                   This file.
     ├── requirements.txt            module requirements
     ├── server.py                   Wsgi app
     └── app
        ├── __init__.py
        ├── app.py                   Main App
        ├── routes.py                flask routes
+       ├── user.py                  manager user management routes
+       ├── user_db.py               manage sqlite3 db       
        ├── static                   Static files
        │   └── css
        │      ├── normalize.css    
        │      └── skeleton.css      
        └── templates                Jinja2 templates
-           ├── html_tamplates.html
            ├── login.html
+           ├── protected.html
            └── welcome.html
  
 ## LICENSE
