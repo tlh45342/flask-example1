@@ -18,6 +18,7 @@ cd flask-example1
 pip install -r requirements.txt
 python server.py
 ```
+
 ## SIDEBAR: Notes for creating a service for Linux based distributions
 
 I am putting my notes here now - because I will use them.  Consider these random notes used to implement the Flask APP as a service.
