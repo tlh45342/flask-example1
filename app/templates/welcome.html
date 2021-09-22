@@ -1,11 +1,18 @@
 <html>
+  <head>
+    <title>Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/mystyle.css">	
+  </head>
+  <body>
+  Welcome to: flask-example1<br><br>
 
-<body>
-Welcome to Sample App 1:<br><br>
+  <div>user is authenticated: {{ is_authenticated }}</div><br>
 
-<FORM action="/login" method="post">
-    <INPUT type="submit" value="login">
- </FORM>
+  <div>
+    <form style="display: inline;" action="/login" method="post"><input type="submit" value="login"></form>
+    <form style="display: inline;" action="/logout" method="post"><input type="submit" value="logout"></form>
+  </div>
  
-</body>
+  </body>
 </html>
