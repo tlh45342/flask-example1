@@ -10,7 +10,7 @@ Work will have been done to test this on Windows 10, Ubuntu 20.04.3 LTS, Apple M
 - learning Flask.
 - kicking off your a new project.
 
-## INSTALLATION
+## NOTES:
 
 Not for the code I have left commented print statements in place (#print) I would encourage new users of flask to evaluate some of the variables in their different states.  I am fairly confident that there are some coding tricks that I have still to learn from the innards of flask.
 
