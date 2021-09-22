@@ -10,11 +10,15 @@ Work will have been done to test this on Windows 10, Ubuntu 20.04.3 LTS, Apple M
 - learning Flask.
 - kicking off your a new project.
 
+## Version:
+
+(9/21/2021)  I think this works and usefully demonstrates a combination of Flask, Sqlite, and flask_login
+
 ## NOTES:
 
 I have left commented print statements in place (#print) I would encourage new users of flask to evaluate some of the variables in their different states.  I am  confident that there are coding tricks that I have still to learn from the innards of flask, and implementing items in python.
 
-Please note that SQLITE3 is kinda crap when it comes from quering how rows are returned when there are no matches.  For now this version simply uses the try and exception method to catch this.  My experience show I can print rowcount and get -1 for a number of choices.  This does NOT by itself seem to indicate 0 rows returned.
+Please note that SQLITE is kinda crap when it comes from quering rowcount when there are no matches.  For now this version simply uses the try and exception method to catch this.  My experience show I can print rowcount and get -1 for a number of choices.  This does not seem to indicates ... well anything to my surprise. 
 
 ## INSTALLATION
 
