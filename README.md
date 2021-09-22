@@ -12,6 +12,12 @@ Work will have been done to test this on Windows 10, Ubuntu 20.04.3 LTS, Apple M
 
 ## INSTALLATION
 
+Not for the code I have left commented print statements in place (#print) I would encourage new users of flask to evaluate some of the variables in their different states.  I am fairly confident that there are some coding tricks that I have still to learn from the innards of flask.
+
+Please note that SQLITE3 is kinda crap when it comes from quering how rows are returned when there are no matches.  For now this version simply uses the try and exception method to catch this.  My experience show I can print rowcount and get -1 for a number of choices.  This does NOT by itself seem to indicate 0 rows returned.
+
+## INSTALLATION
+
 ```bash
 git clone https://github.com/tlh45342/flask-example1.git
 cd flask-example1
@@ -33,7 +39,7 @@ Description=flask-example1
 
 [Service]
 WorkingDirectory=/mnt/python/flask-example1/
-ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:8080 -w 4 server:app
+ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:80 -w 4 server:app
 
 [Install]
 WantedBy=multi-user.target
@@ -61,9 +67,7 @@ sudo systemctl stop flask1.service
        ├── user.py                  manager user management routes
        ├── user_db.py               manage sqlite3 db       
        ├── static                   Static files
-       │   └── css
-       │      ├── normalize.css    
-       │      └── skeleton.css      
+       │   └── mystyle.css          Fairly minimalistic choices   
        └── templates                Jinja2 templates
            ├── login.html
            ├── protected.html
@@ -82,3 +86,5 @@ URLS:
   https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-v-user-logins
   https://medium.com/analytics-vidhya/how-to-use-flask-login-with-sqlite3-9891b3248324
      * There are errors in the above medium document (reviewed: 9/4/2021) - however I was able to bridge the gap and fill in holes in my knowledge with this.
+  https://github.com/anfederico/flaskex
+     * This example brought it home for me.
