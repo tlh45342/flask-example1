@@ -40,6 +40,7 @@ python3-pip
 python-is-python3
 
 ```bash
+cd /opt
 git clone https://github.com/tlh45342/flask-example1.git
 cd flask-example1
 pip install -r requirements.txt
@@ -59,7 +60,7 @@ As much as I hate assumptions - you will need to edit this to your tastes and fo
 Description=flask-example1
 
 [Service]
-WorkingDirectory=/mnt/python/flask-example1/
+WorkingDirectory=/opt/flask-example1/
 ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:80 -w 4 server:app
 
 [Install]
