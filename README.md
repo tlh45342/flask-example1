@@ -26,8 +26,10 @@ A generic password of username: admin, password=p@$$w0rd is part of the initial 
 
 Note #5: sqlite3 is pre-installed but not a builtin module
 see:
->>> import sys
->>> sys.builtin_module_names
+```bash
+ import sys
+ sys.builtin_module_names
+```
 
 ## INSTALLATION
 
