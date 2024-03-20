@@ -102,7 +102,8 @@ flask-example1 is licensed under the Apache License, Version 2.0. See LICENSE fo
 ## ACKNOWLEDGEMENTS
 
 Many thanks to Python, Flask and other good stacks.
-Please note that this does include http://getskeleton.com/ skeleton.css and normal.css (credit to them)
+I am including credit or nod to http://getskeleton.com/ (skeleton.css and normal.css)
+- early notes indicate I learned a great deal from them.  
 
 URLS:
   https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-v-user-logins
