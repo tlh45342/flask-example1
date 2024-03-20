@@ -24,9 +24,14 @@ Note #3: Please note that SQLITE is not robouts when quering rowcount when there
 Note #4: A sqlite3 data base is used to store the password information
 A generic password of username: admin, password=p@$$w0rd is part of the initial pre configuration that is part of the first run
 
+Note #5: sqlite3 is pre-installed but not a builtin module
+see:
+>>> import sys
+>>> sys.builtin_module_names
+
 ## INSTALLATION
 
-# preequisites
+# prequisites
 
 python3
 python3-pip
