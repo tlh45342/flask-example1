@@ -11,15 +11,26 @@ Work will have been done to test this on Windows 10, Ubuntu 20.04.3 LTS, Apple M
 
 ## Version:
 
-(9/21/2021)  I think this works and usefully demonstrates a combination of Flask, Sqlite, and flask_login
+(9/21/2021)  I think this works and usefully demonstrates a combination of Flask, sqlite, and flask_login
 
 ## NOTES:
 
-I have left commented print statements in place (#print) I would encourage new users of flask to evaluate some of the variables in their different states.  I am  confident that there are coding tricks that I have still to learn from the innards of flask, and implementing items in python.
+#note 1:  This 'application' is simple and only uses port 80
 
-Please note that SQLITE is kinda crap when it comes from quering rowcount when there are no matches.  For now this version simply uses the try and exception method to catch this.  My experience show I can print rowcount and get -1 for a number of choices.  This does not seem to indicates ... well anything to my surprise. 
+#note #2: I have left commented print statements in place (#print) I would encourage new users of flask to evaluate some of the variables in their different states.  I am  confident that there are coding tricks that I have still to learn from the innards of flask, and implementing items in python.
+
+Note #3: Please note that SQLITE is not robouts when quering rowcount when there are no matches.  For now this version of the app simply uses the try and exception method to catch this.  My experience show I can print rowcount and get -1 for a number of choices.  This does not seem to indicates ... well anything to my surprise. 
+
+Note #4: A sqlite3 data base is used to store the password information
+A generic password of username: admin, password=p@$$w0rd is part of the initial pre configuration that is part of the first run
 
 ## INSTALLATION
+
+# preequisites
+
+python3
+python3-pip
+python-is-python3
 
 ```bash
 git clone https://github.com/tlh45342/flask-example1.git
