@@ -12,6 +12,7 @@ Work will have been done to test this on Windows 10, Ubuntu 20.04.3 LTS, Apple M
 ## Version:
 
 (9/21/2021)  I think this works and usefully demonstrates a combination of Flask, sqlite, and flask_login
+(3/20/2024)  Revisited.  Corrected sone notes. Added some notes.
 
 ## NOTES:
 
